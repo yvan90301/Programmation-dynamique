@@ -1,0 +1,51 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url(./assets/Campus1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+img{
+    width: 25rem;
+}
+
+.b{
+    text-align: center;
+    padding-top: 2rem;
+}
+.b button{
+    background-color:#23388d ;
+    border: none;
+}
+p{
+    color: snow;
+}
+select option:hover{
+ background-color: #23388d;
+}
+form{
+    padding: 0;
+    margin: 0;
+}
+.th{
+    font-size: 2rem;
+}
+.border{
+    border: 2px solid;
+    background:linear-gradient(30deg, rgba(232, 214, 214, 0.477), rgba(216, 216, 238, 0.523));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px); 
+    padding: 2rem;
+    margin-top: 2rem;
+    width: 100%
+}
+td,tr{
+
+  font-weight: 400;
+
+}

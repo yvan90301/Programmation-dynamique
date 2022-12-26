@@ -1,0 +1,45 @@
+
+/* body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url(../../assets/Campus.jpg);
+} */
+.cadre{
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    border-radius: 50px;
+    padding-top: 3rem;
+    padding-bottom: 3.4rem;
+}
+#fond{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url(../../assets/Campus1.jpg);
+}
+.bloc1{
+    background:linear-gradient(30deg, rgba(95, 93, 93, 0.302), rgba(173, 173, 175, 0.342));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px); 
+    padding: 4rem 6rem 4rem 6rem;
+    
+}
+.bloc2{
+    background-color: #23388d;
+    padding: 6rem;
+  
+}
+.bloc2 h1{
+    color:aliceblue
+}
+.color{
+    background-color:#23388d ;
+    border: none;
+    color: aliceblue;
+}
+/* .supcontainer{
+    background-color: rgba(3, 2, 2, 0.437);
+    width: 100%;
+} */

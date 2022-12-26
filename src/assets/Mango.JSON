@@ -1,0 +1,170 @@
+[
+  {
+    "Nom": "Mango Plenty J",
+    "SMS": 25,
+    "Appels": 0,
+    "Data": 0,
+    "Validite": 1,
+    "Prix": 100
+  },
+  {
+    "Nom": "Mango Plenty S",
+    "SMS": 1000,
+    "Appels": 1460,
+    "Data": 0,
+    "Validite": 7,
+    "Prix": 250
+  },
+  {
+    "Nom": "Mango Plenty M",
+    "SMS": 10000,
+    "Appels": 1950,
+    "Data": 0,
+    "Validite": 30,
+    "Prix": 450
+  },
+  {
+    "Nom": "Mango Giga 3J 1200",
+    "SMS": 0,
+    "Appels": 0,
+    "Data": 1,
+    "Validite": 3,
+    "Prix": 1200
+  },
+  {
+    "Nom": "Mango Giga 3J 5400",
+    "SMS": 0,
+    "Appels": 0,
+    "Data": 4,
+    "Validite": 3,
+    "Prix": 5400
+  },
+  {
+    "Nom": "Mango Giga 7J 2650",
+    "SMS": 0,
+    "Appels": 0,
+    "Data": 7,
+    "Validite": 7,
+    "Prix": 2650
+  },
+  {
+    "Nom": "Mango Giga 7J 5600",
+    "SMS": 0,
+    "Appels": 0,
+    "Data": 14,
+    "Validite": 7,
+    "Prix": 5600
+  },
+  {
+    "Nom": "Mango Giga 7J 15400",
+    "SMS": 0,
+    "Appels": 0,
+    "Data": 35,
+    "Validite": 7,
+    "Prix": 15400
+  },
+  {
+    "Nom": "Mango Giga 30J 10000",
+    "SMS": 0,
+    "Appels": 0,
+    "Data": 30,
+    "Validite": 30,
+    "Prix": 10000
+  },
+  {
+    "Nom": "Mango Giga 30J 21500",
+    "SMS": 0,
+    "Appels": 0,
+    "Data": 60,
+    "Validite": 30,
+    "Prix": 21500
+  },
+  {
+    "Nom": "Mango Flex 300-1",
+    "SMS": 100,
+    "Appels": 1300,
+    "Data": 0.03,
+    "Validite": 7,
+    "Prix": 300
+  },
+  {
+    "Nom": "Mango Flex 300-2",
+    "SMS": 100,
+    "Appels": 1500,
+    "Data": 0,
+    "Validite": 7,
+    "Prix": 300
+  },
+  {
+    "Nom": "Mango Flex 300-3",
+    "SMS": 100,
+    "Appels": 1400,
+    "Data": 0.025,
+    "Validite": 7,
+    "Prix": 300
+  },
+  {
+    "Nom": "Mango Flex 300-4",
+    "SMS": 100,
+    "Appels": 1200,
+    "Data": 0,
+    "Validite": 7,
+    "Prix": 300
+  },
+  {
+    "Nom": "Mango PS combo",
+    "SMS": 10000,
+    "Appels": 15000,
+    "Data": 6,
+    "Validite": 30,
+    "Prix": 5000
+  },
+  {
+    "Nom": "Mango PS 2100",
+    "SMS": 0,
+    "Appels": 0,
+    "Data": 4.5,
+    "Validite": 30,
+    "Prix": 2100
+  },
+  {
+    "Nom": "Mango PS talk",
+    "SMS": 0,
+    "Appels": 10000,
+    "Data": 0,
+    "Validite": 30,
+    "Prix": 1000
+  },
+  {
+    "Nom": "Mango PS 1200",
+    "SMS": 0,
+    "Appels": 0,
+    "Data": 2.2,
+    "Validite": 30,
+    "Prix": 1200
+  },
+  {
+    "Nom": "Mango PS 500",
+    "SMS": 0,
+    "Appels": 0,
+    "Data": 0.9,
+    "Validite": 30,
+    "Prix": 500
+  },
+  {
+    "Nom": "Mango PS 400",
+    "SMS": 10000,
+    "Appels": 0,
+    "Data": 0,
+    "Validite": 30,
+    "Prix": 400
+  },
+  {
+    "Nom": "Mango PS ",
+    "SMS": 0,
+    "Appels": 0,
+    "Data": 50,
+    "Validite": 1,
+    "Prix": 5000
+  }
+]
