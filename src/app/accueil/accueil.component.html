@@ -1,0 +1,88 @@
+<div style="text-align: center">
+  <img src="../assets/logo.png" alt="logo" />
+</div>
+<div class="container cadre">
+  <div class="container bloc1">
+    <div style="text-align: center">
+      <img src="../assets/black-and-white-circle.png" style="width: 20rem;" alt="logo" />
+    </div>
+
+    <form action="">
+      <div class="input-group mb-3" style="padding-top: 2rem">
+        <span class="input-group-text color" id="basic-addon1">CFA</span>
+        <input
+          type="number"
+          class="form-control"
+          placeholder="Entrez la somme"
+          aria-label="somme"
+          aria-describedby="basic-addon1"
+          [ngModelOptions]="{standalone:true}"
+          [(ngModel)]="somme"
+          required
+        />
+      </div>
+
+      <div class="input-group mb-3">
+        <span
+          class="input-group-text color"
+          style="margin-right: 1.3rem"
+          id="basic-addon1"
+          >Priorités</span
+        >
+        <span class="input-group-text" id="basic-addon1 ">SMS</span>
+        <select class="input-group-text" id="basic-addon1" [ngModelOptions]="{standalone:true}" [(ngModel)]="sms" >
+          <option value="0" selected>0</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+        </select>
+        <span class="input-group-text" id="basic-addon1">Appel</span>
+        <select class="input-group-text" id="basic-addon1" [ngModelOptions]="{standalone:true}" [(ngModel)]="appel" >
+          <option value="0" selected>0</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+        </select>
+        <span class="input-group-text" id="basic-addon1">Data</span>
+        <select class="input-group-text" id="basic-addon1" [ngModelOptions]="{standalone:true}" [(ngModel)]="data" >
+          <option value="0" selected>0</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+        </select>
+      </div>
+      <div class="input-group mb-3">
+        <span class="input-group-text color" id="basic-addon1">Jours</span>
+        <input
+          type="number"
+          class="form-control"
+          placeholder="Entrez le nombre de jours"
+          aria-label="Jours"
+          aria-describedby="basic-addon1"
+          [ngModelOptions]="{standalone:true}"
+          [(ngModel)]="jours"
+          required
+        />
+      </div>
+      <div class="b">
+        <button class="btn btn-primary btn-lg" [routerLink]="['/forfaits']" (click)="valider(somme,sms,appel,data,jours)">
+          Je valide
+        </button>
+      </div>
+    </form>
+  </div>
+
+  <div class="container bloc2">
+    <div><h1>LES MEILLEURES FORFAITS RESERVES POUR VOUS</h1></div>
+    <div>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos doloribus
+        alias qui at! Sunt accusamus similique eveniet repellendus harum culpa
+        minus doloribus quae fugiat est, labore voluptatum nobis obcaecati sit.
+      </p>
+      <p style="padding-top: 7rem">
+        Remplissez le formulaire et optenez des forfaits fait pour vous
+      </p>
+    </div>
+  </div>
+</div>

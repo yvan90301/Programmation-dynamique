@@ -1,0 +1,85 @@
+<div class="logo">
+  <div style="text-align: end">
+    <img src="../../assets/logo.png" style="width: 15rem" alt="logo" />
+  </div>
+  <div style="text-align: end">
+    <img
+      src="../assets/black-and-white-circle.png"
+      style="width: 15rem"
+      alt="logo"
+    />
+  </div>
+</div>
+<div id="fond">
+  <h1>Les forfaits qui vous correspondent</h1>
+  <div class="cadre" style="padding-top: 2rem">
+    <div class="border">
+      <div>
+        <table class="table">
+          <thead>
+            <tr>
+              <th class="th">Forfaits Proposés par Hemle</th>
+            </tr>
+          </thead>
+        </table>
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col"></th>
+              <th scope="col">Nom</th>
+              <th scope="col">SMS</th>
+              <th scope="col">Appels</th>
+              <th scope="col">Data(Go)</th>
+              <th scope="col">Validité</th>
+              <th scope="col">Prix</th>
+            </tr>
+          </thead>
+          <tbody class="table-group-divider" *ngFor="let item of listhemle">
+            <tr>
+              <th scope="row">{{ listhemle.indexOf(item) + 1}}</th>
+              <td>{{ item.Nom }}</td>
+              <td>{{ item.SMS }}</td>
+              <td>{{ item.Appels }}</td>
+              <td>{{ item.Data }}</td>
+              <td>{{ item.Validite }}</td>
+              <td>{{ item.Prix }}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div class="border">
+      <table class="table">
+        <thead>
+          <tr>
+            <th class="th">Forfaits Proposés par Mango</th>
+          </tr>
+        </thead>
+      </table>
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col"></th>
+            <th scope="col">Nom</th>
+            <th scope="col">SMS</th>
+            <th scope="col">Appels</th>
+            <th scope="col">Data(Go)</th>
+            <th scope="col">Validité</th>
+            <th scope="col">Prix</th>
+          </tr>
+        </thead>
+        <tbody class="table-group-divider" *ngFor="let item of listmango">
+          <tr>
+            <th scope="row">{{ listmango.indexOf(item) + 1 }}</th>
+            <td>{{item.Nom}}</td>
+            <td>{{ item.SMS }}</td>
+            <td>{{ item.Appels }}</td>
+            <td>{{ item.Data }}</td>
+            <td>{{ item.Validite }}</td>
+            <td>{{ item.Prix }}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
